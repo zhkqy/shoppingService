@@ -3,7 +3,7 @@ const hostname = '0.0.0.0';
 const port = 3000;
 const server = http.createServer((req, res) => {
 res.statusCode = 200;
-res.setHeader('Content-Type', 'text/plain','charset=utf-8');
+res.setHeader('Content-Type', 'text/html;charset=utf-8');
 res.end('老婆 爱你哦！\n');
 });
 server.listen(port, hostname, () => {
